@@ -1,5 +1,6 @@
 body {
     background-color: #F8F8F8;
+    font-family: 'Langar', cursive;
 }
 
 main {
@@ -37,10 +38,14 @@ main {
             h1 {
                 display: inline-block;
                 width: 100%;
+                margin: 0;
+                font-size: 80px;
             }
             p {
                 display: inline-block;
                 width: 100%;
+                margin: 0;
+                font-size: 30px;
             }
         section > img {
             display: inline-block;
