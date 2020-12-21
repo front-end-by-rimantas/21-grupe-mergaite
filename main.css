@@ -1,0 +1,14 @@
+main {
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    background-color: aquamarine;
+}
+    header {}
+        img {}
+        nav {}
+            a {}
+    section {}
+        div {}
+            h1 {}
+            p {}
+        img {}
