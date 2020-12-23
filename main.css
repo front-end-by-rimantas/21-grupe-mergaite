@@ -20,9 +20,22 @@ main {
         nav {
             display: inline-block;
             float: right;
+            margin-top: 10px;
         }
             a {
                 display: inline-block;
+                float: left;
+                line-height: 20px;
+                font-size: 16px;
+                padding: 5px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-decoration: none;
+            }
+            nav > a:last-of-type {
+                text-transform: uppercase;
+                border: 5px solid #999;
+                margin-top: -5px;
             }
     section {
         display: inline-block;
@@ -46,6 +59,7 @@ main {
                 width: 100%;
                 margin: 0;
                 font-size: 30px;
+                line-height: 40px;
             }
         section > img {
             display: inline-block;
