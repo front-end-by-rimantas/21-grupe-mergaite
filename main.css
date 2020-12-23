@@ -31,12 +31,22 @@ main {
                 padding-left: 20px;
                 padding-right: 20px;
                 text-decoration: none;
+                color: #999;
             }
+                a:hover {
+                    text-decoration: underline;
+                }
             nav > a:last-of-type {
                 text-transform: uppercase;
                 border: 5px solid #999;
                 margin-top: -5px;
+                border-radius: 20px;
             }
+                nav > a:last-of-type:hover {
+                    text-decoration: none;
+                    background-color: #999;
+                    color: #fff;
+                }
     section {
         display: inline-block;
         width: 100%;
